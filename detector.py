@@ -100,8 +100,3 @@ class Detector:
                 cv2.imshow("", frame)
                 if cv2.waitKey(1) == ord("q"):
                     break
-
-if __name__ == "__main__":
-    detector = Detector(30, 45)
-    detector.set_mode(2)
-    detector.demo()
